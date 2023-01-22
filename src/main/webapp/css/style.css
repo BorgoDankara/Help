@@ -1,0 +1,145 @@
+body {
+	margin: 0px;
+	background-color: black;
+	color: #a25936;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+
+}
+
+#bannerJunctionBox {
+	width: 100px;
+	height: 100px;
+	border: solid;
+	border-radius: 10px;
+	border-color: royalblue;
+	border-width: 3px;
+	background-color: royalblue;
+}
+
+#bannerPicture {
+	border-radius: 10px;
+}
+
+#bannerTitle {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	border: solid;
+	border-radius: 10px;
+	border-color: royalblue;
+	border-width: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#bannerTitle > h1 {
+	font-size: 3em;
+	margin: 5px;
+}
+
+#bannerUserSpace {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border: solid;
+	border-radius: 10px;
+	border-color: royalblue;
+	border-width: 3px;
+	background-color: black;
+}
+
+.UserSpaceButton {
+	width: 80px;
+}
+
+hr {
+	color: royalblue;
+	border-width: 2px;
+}
+
+main {
+	margin: 10px;
+}
+
+.userSpaceModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.userSpaceModalContent {
+	margin: 15% auto;
+	padding: 20px;
+	padding-top: 0px;
+	border: solid;
+	border-radius: 30px;
+	border-color: royalblue;
+	border-width: 3px;
+	width: 50%;
+	background-color: black;
+}
+
+.modalUserSpaceCloseArea {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.modalUserSpaceClose {
+	color: #aaa;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.modalUserSpaceClose:hover,.modalUserSpaceClose:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+} 
+
+.userSpaceFullForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.userMailArea {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.userMailLabel, .userPassLabel {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+.userMailLabel{
+	margin-top: 0px;
+}
+
+.userMailInput, .userPassInput {
+	width: 80%px;
+}
+
+.submitButton {
+	width: 100px;
+	border-color: royalblue;
+	margin-top: 50px;
+}
